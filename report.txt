@@ -1,0 +1,16 @@
+In our dataset there are two columns thats is age and cabin having missing values.
+cabin has 77% missing values and age has almost 20% missing values.
+Initially we cleaned the dataset by removing all rows having null or na as values by using the 
+dropna function( df=df.dropna(how='all') , where df is the dataset )
+We cleaned the dataset by entirely removing the cabin since 77% values were missing.
+We removed passengerId column since it had no use to us in our project.
+Also we filled the missing values for age by the technique of interpolation where the null 
+values of age is filled by the average values of the adjascent top and bottom age values.
+( function used to do that was df.Age=df.Age.interpolate() , where df id the dataset used ) 
+We contructed a boxplot for age by which we found outliers and we dropped all the outliers.
+keeping 1 as survived and 0 otherwise, we constructed a scatterplot graph age vs survived.
+We constructed teo separate graphs that were for men and women where each graph was number 
+survivers and people who died vs the age. There were 3 ports that were ports S,C and Q that 
+were the boarding points for the passengers.Another graph we visualised based on the port 
+where the people had got on the ship and whether they were male or female and deduced who had
+a higher chance of surviving. 
