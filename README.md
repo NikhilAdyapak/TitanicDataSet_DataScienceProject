@@ -18,3 +18,7 @@ SDS_Project_PPT.pptx      project presentation
 - Training and comparing classification models to predict survival
 
 Open the notebook to reproduce the analysis end to end.
+
+---
+
+Built by Nikhil Adyapak · [Portfolio](https://nikhiladyapak.github.io/) · [LinkedIn](https://www.linkedin.com/in/nikhil-adyapak)
